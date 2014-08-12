@@ -9,3 +9,5 @@ python manage.py check
 python manage.py migrate
 
 python manage.py shell
+
+q = Question(question_text="What's new?", :pub_date=timezone.now())
